@@ -1,7 +1,11 @@
-<?php
-
-{extends file = "../layout.tpl"}
+{extends file="../layout.tpl"}
+{block name = "content"}
 <a>cette ligne se trouve dans acceuil.tpl voila voila</a>
-{include file = "../../application/modules/acceuil.inc.php"}
 
-?>
+<p> salut</p>
+
+<body>
+ngoerigoerjrehjrehoijreijo
+</body>
+
+{/block}
