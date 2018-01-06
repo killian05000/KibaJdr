@@ -1,4 +1,12 @@
-$alea = array(rand(), rand(), rand());
+<?php
+
+$alea = array(rand(0,100), rand(0,100), rand(0,100));
 $data['alea'] = $alea;
-$txt = "blabla";
-echo $txt;
+$txt = "Blabla";
+echo "$txt<br/>";
+foreach ($alea as $value)
+{
+	echo "Valeur : $value<br/>";
+}
+
+?>
