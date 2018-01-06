@@ -31,6 +31,6 @@ else{
 }
 
 $smarty->assign('data',$data);
-$smarty->display('application/view/modules/'.$currentPage.'.tpl');
+$smarty->display('application/views/modules/'.$currentPage.'.tpl');
     
 ?>
