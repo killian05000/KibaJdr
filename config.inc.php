@@ -7,7 +7,11 @@
             "profile" => "application/modules/profile.inc.php",
             
             "publication" => "application/modules/publi_detail.inc.php",
-            "publication_liste" =>"application/modules/publi_liste.inc.php"   
+            "publication_liste" =>"application/modules/publi_liste.inc.php"
+        
+        
+    
+    
     );
 
 ?>
