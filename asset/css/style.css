@@ -3,6 +3,7 @@
 {
 	font-family: Tahoma, Geneva, sans-serif ;
 	color: white;	
+	text-align: center;
 }
 
 body
@@ -132,7 +133,7 @@ img.droite
 	column-gap: 1em;
 }
 
-#footer
+#copyright
 {
 	color: white;
 	height: 3em;

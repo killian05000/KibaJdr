@@ -1,1 +1,3 @@
-<h2>foot-layout c'est ici</h2>
+<div id="copyright">
+	<p> &copy; Copyright 2016 Killian WOLFGER - tous droits réservés </p>
+</div>
