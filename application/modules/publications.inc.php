@@ -1,6 +1,5 @@
 <?php
 
-<h1>Bienvenue dans publication.inc.php</h1>
 
 
 
@@ -11,6 +10,6 @@ $extensionValide = array('jpg','jpeg','png','gif');
 $rubriques = $connect->query('SELECT * FROM rubriques ORDER BY date_time_rubriques DESC');
 
 
-  //while($r = $rubriques->fetch()){}
+//while($r = $rubriques->fetch()){}
 
 ?>

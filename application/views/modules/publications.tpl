@@ -2,6 +2,6 @@
 
 {block name = "content"}
 
-<a>cette ligne se trouve dans accueil.tpl</a>
+<a>cette ligne se trouve dans publication.tpl</a>
 
 {/block};
