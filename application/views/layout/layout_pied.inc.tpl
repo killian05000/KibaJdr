@@ -1,3 +1,3 @@
 <div id="copyright">
-	<p> &copy; Copyright 2016 Killian WOLFGER - tous droits réservés </p>
+	<p> &copy; Copyright 2018 Killian WOLFGER, Baptiste BARBE - tous droits réservés </p>
 </div>
