@@ -5,8 +5,8 @@ try{
 $connect = new PDO('mysql:host=localhost;dbname=jdr;charset=utf8','root','');
 }catch (Exception $e){die('Erreur : '.$e->getMessage());}
 if (isset($_POST['submit'])){
-    if (isset($_POST['pseudo'],$_POST['email'],$_POST['password'],$_POST['c_password'])){
-        if(!empty($_POST['pseudo']) AND !empty($_POST['email']) AND !empty($_POST['password'])AND !empty($_POST['c_password'])){
+    if (isset($_POST['pseudo'],$_POST['email'] ,$_POST['prenom'] ,$_POST['nom'],$_POST['password'],$_POST['c_password'])){
+        if(!empty($_POST['pseudo']) AND !empty($_POST['email']) AND !empty($_POST['prenom']) AND !empty($_POST['nom']) AND !empty($_POST['password'])AND !empty($_POST['c_password'])){
             
             $pseudo = htmlspecialchars($_POST['pseudo']);
             $prenom = htmlspecialchars($_POST['prenom']);
@@ -21,9 +21,9 @@ if (isset($_POST['submit'])){
             $secure->execute(array($email));
             $nb = $secure->rowcount($secure);
             
-            if(strlen($pseudo  ) > 3  AND strlen($pseudo) <35 ){
+            if(strlen($pseudo  ) >= 4  AND strlen($pseudo) <35 ){
                 if($password == $c_password){
-                    if(strlen ($password) > 8 AND strlen($password) < 30) { 
+                    if(strlen ($password) >= 6 AND strlen($password) < 30) { 
                          if ($nb == 0 ) {
                                 
                              
@@ -68,7 +68,7 @@ if (isset($_POST['submit'])){
                             }
 
                     }else {
-                  echo " le mot de passe trop grand doit etre comrpis entre 8 et 30 caracteres";
+                  echo " le mot de passe trop grand doit etre comrpis entre 6 et 30 caracteres";
                     }
                     
                 }else {
@@ -76,7 +76,7 @@ if (isset($_POST['submit'])){
                 }
 
             }else {
-              echo " votre pseudo doit etre compris entre 3 et 35 caracteres ";
+              echo " votre pseudo doit etre compris entre 4 et 35 caracteres ";
             }
 
         }else {

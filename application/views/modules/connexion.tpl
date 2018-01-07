@@ -9,7 +9,7 @@
 <header>
 </header>
 <body>
-<form action="connexion.inc.php" method="post" >
+<form action="" method="post" >
     <table id="taaable">
         <tr>
             <td>

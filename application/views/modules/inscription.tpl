@@ -3,14 +3,14 @@
 {block name = "content"}
 
 
-    <html>
-        <head>
-            <title> Inscription</title>
-        </head>
+<html>
+    <head>
+        <title> Inscription</title>
+    </head>
     <header>
     </header>
     <body>
-    <form id="inscription_form" action="inscription.inc.php" method="post" >
+    <form id="inscription_form" action="" method="post" >
         <table id="taaable">
             <tr>
                 <td>
@@ -33,7 +33,7 @@
                     <label for="id">Choisissez votre nom : </label>
                 </td>
                 <td>
-                    <input type="text" name="email" id="champ_case" placeholder="Nom"> 
+                    <input type="text" name="nom" id="champ_case" placeholder="Nom"> 
                 </td>
             </tr>
             <tr>
@@ -41,7 +41,7 @@
                     <label for="id">Choisissez votre prenom: </label>
                 </td>
                 <td>
-                    <input type="text" name="email" id="champ_case" placeholder="Prenom"> 
+                    <input type="text" name="prenom" id="champ_case" placeholder="Prenom"> 
                 </td>
             </tr>
             <tr>
@@ -78,8 +78,7 @@
                 <input id="champ_case" type="submit" name="submit" value="S'inscrire">
             </td>
             </tr>
-       </table>
-        
+        </table>        
         </form>
   </body>
 </html>

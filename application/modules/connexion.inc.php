@@ -10,20 +10,25 @@ if(isset($_POST['submit'])){
         
         $email = htmlspecialchars($_POST['email']);
         $password = htmlspecialchars($_POST['password']);
-        $password = sha1($password);
+        $password1 = sha1($password);
         
-        $recovery_user = $connect ->prepare("SELECT UTI_PASS AND UTI_MAIL FROM t_utilisateurs_uti WHERE UTI_MAIL = ? AND UTI_PASS= ?  ");
-        $recovery_user->execute(array($emai,$passwordl));
+  
+        $recovery_user = $connect ->prepare("SELECT * FROM t_utilisateur_uti WHERE UTI_MAIL = ? AND UTI_PASS= ?  ");
+        $recovery_user->execute(array($email,$password1));
         $nb = $recovery_user->rowcount();
+
+
        
         if($nb == 1){
             
+               
                 
                     $info_user = $recovery_user->fetch();
                     $_SESSION['id'] = $info_user['UTI_ID'];
                     $_SESSION['login'] = $info_user['UTI_LOGIN'];
                     $_SESSION['mail'] = $info_user['UTI_MAIL'];
                     $_SESSION['password'] = $info_user['UTI_PASS'];
+                    
                     /*
                     $_SESSION['confirme'] = $info_user['confirme'];
 
@@ -38,10 +43,6 @@ if(isset($_POST['submit'])){
                     }
                     */
 
-            } else {
-                    
-                echo "Adresse ou Mot de passe incorrect ! ";
-            }
             
         
         } else {
@@ -52,6 +53,6 @@ if(isset($_POST['submit'])){
     } else { 
         echo " Veuillez remplir les champs !";
     }
-    
+ }   
     
 ?>
