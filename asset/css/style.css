@@ -36,8 +36,8 @@ body
 }
 
 #main_header
-{;
-	height: 200px;
+{
+	padding: 20px;
 	background-image: url("../images/redandblack.jpg");
 }
 
@@ -46,28 +46,22 @@ body
 	background-color: pink;
 }
 
-#navigator
-{
-	width: 800px;
-	float: left;
- 	list-style-type: none;
-	text-align: center;	
-	color: white;		
-}
 
+
+#menu
+{
+	text-align: center;
+}
 
 #menu li 
 {
-
+	display : inline-block;
 	width : 120px;
 	list-style-type: none;
 	background-color: rgba(25,255,255,0.5); // couleur du fond du menu
-	margin-left: 20px;
 	margin-bottom: 10px;
 	border-radius: 10px 10px 10px 10px;
- 	float:left;
- 	margin-left: 50px;
-	
+	margin :20px;	
 }
 
 #menu li a
