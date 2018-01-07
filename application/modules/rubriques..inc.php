@@ -46,7 +46,7 @@ if(isset($_SESSION['id'] )){
 
             } else {
 
-                $msg = "une erreur est survenue  , peut etre que le créateur n'existe plus :( " ;
+                $msg = "une erreur est survenue  , peut etre que le crÃ©ateur n'existe plus :( " ;
             }
 
         } else {
@@ -119,7 +119,7 @@ if(isset($_SESSION['id'] )){
             
             
         } else {
-            $msgCommentaire = "  /!\ tout les champs doivent etre complétés" ;
+            $msgCommentaire = "  /!\ tout les champs doivent etre complÃ©tÃ©s" ;
         }
     }
 
@@ -141,7 +141,7 @@ if(isset($_SESSION['id'] )){
         
         <h1><?= $titre_rubriques ?></h1>
         <p> <?= $contenu_rubriques ?> </p> <br/> <br/>
-        <p> rubrique créé par : <a href="profilGlobal.php?idProprio=<?= $id_proprio ?>" ><?= $pseudo_proprio ?></a>  <?php
+        <p> rubrique crÃ©Ã© par : <a href="profilGlobal.php?idProprio=<?= $id_proprio ?>" ><?= $pseudo_proprio ?></a>  <?php
                     if(!empty($avatar_proprio)){
                 ?>
                 <img src="images/<?= $avatar_proprio; ?>" width="30" />
