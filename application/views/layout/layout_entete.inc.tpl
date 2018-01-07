@@ -1,2 +1,2 @@
-<h1>Kiba jeu de rôle</h1>
-<p>pour s'amuser, il faut jouer</p>
+<h1 id="titre_page">Kiba jeu de rôle</h1>
+<p id="slogan">pour s'amuser, il faut jouer</p>

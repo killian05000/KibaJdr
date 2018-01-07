@@ -2,11 +2,13 @@
 *
 {
 	font-family: Tahoma, Geneva, sans-serif ;
+	color: white;	
 }
 
 body
 {
 	background-color: grey; // le bg
+	font-color: white;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: ; 
@@ -23,11 +25,20 @@ body
 	margin-bottom: 100px;
 }
 
-#header
+#titre_page
 {
-	width: 800px;
+	text-align: center;
+}
+
+#slogan
+{
+	text-align: center;
+}
+
+#main_header
+{;
 	height: 200px;
-	background-image: url("redandblack.jpg");
+	background-image: url("../images/redandblack.jpg");
 }
 
 #containment
