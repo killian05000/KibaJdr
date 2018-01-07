@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2018-01-07 15:30:21
+/* Smarty version 3.1.30, created on 2018-01-07 20:13:58
   from "C:\xampp\htdocs\KibaJdr\application\views\layout.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5a522efd771f05_27615664',
+  'unifunc' => 'content_5a5271760be400_72870844',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '0eaba36a81ae4aa98b12bcebf2924a5775af56ce' => 
     array (
       0 => 'C:\\xampp\\htdocs\\KibaJdr\\application\\views\\layout.tpl',
-      1 => 1515335412,
+      1 => 1515352428,
       2 => 'file',
     ),
   ),
@@ -23,7 +23,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:application/views/layout/layout_pied.inc.tpl' => 1,
   ),
 ),false)) {
-function content_5a522efd771f05_27615664 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5a5271760be400_72870844 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 ?>
@@ -44,10 +44,9 @@ $_smarty_tpl->inheritance->init($_smarty_tpl, false);
 		<?php $_smarty_tpl->_subTemplateRender("file:application/views/nav/nav.inc.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 ?>
 
-		<br><br><br>
 	</head>
 		<?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_8621890165a522efd771437_48704927', "content");
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_18371538695a5271760bd8b7_24688706', "content");
 ?>
 
     <footer>
@@ -58,7 +57,7 @@ $_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_8621890165a522efd7
 </body>
 </html><?php }
 /* {block "content"} */
-class Block_8621890165a522efd771437_48704927 extends Smarty_Internal_Block
+class Block_18371538695a5271760bd8b7_24688706 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>

@@ -11,7 +11,6 @@
 <body>
 	<head>
 		{include file='application/views/nav/nav.inc.tpl'}
-		<br><br><br>
 	</head>
 		{block name = "content"}
 		{/block}

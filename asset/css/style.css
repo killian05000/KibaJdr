@@ -16,16 +16,6 @@ body
 	margin: 0px;
 }
 
-#page 
-{
-	width: 800px;
-	margin: auto;
-	text-align: center;	
-	color: white;	
-	background-color: rgba(230,255,30,0.5); // la colonne centrale verte
-	margin-bottom: 100px;
-}
-
 #titre_page
 {
 	text-align: center;
@@ -44,7 +34,7 @@ body
 
 #categorie_title
 {
-	margin: 200px;
+	margin: 2000px; ????????????????????????????
 }
 
 #champ_case
@@ -64,9 +54,9 @@ body
 	border-width: 2px;
 }
 
-#containment
-{	
-	background-color: pink;
+#bouton_inscription
+{
+	background-color: black;
 }
 
 #menu
@@ -79,11 +69,9 @@ body
 	display : inline-block;
 	width : 120px;
 	list-style-type: none;
-	background-color: rgba(25,255,255,0.5); // couleur du fond du menu
-	margin-bottom: 10px;
+	background-color: rgba(25,255,255,0.5);	
 	border-radius: 10px 10px 10px 10px;
 	margin :20px;
-	margin-bottom: 0px;	
 }
 
 #menu li a
@@ -103,7 +91,7 @@ body
 	text-decoration: none;	
 }
 
-#content
+/*#content
 {
 	margin-left: 20px;
 	margin-right: 20px;
@@ -152,7 +140,7 @@ img.droite
 	-webkit-column-gap: 1em;
 	column-count: 2;
 	column-gap: 1em;
-}
+}*/
 
 #copyright
 {
@@ -165,9 +153,4 @@ img.droite
 	clear: both;
 	line-height: 3em;
 	clear: both;
-}
-
-#header
-{
-	background-image: url("redandblack.jpg");
 }

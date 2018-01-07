@@ -33,7 +33,7 @@
                     <label for="id">Choisissez votre nom : </label>
                 </td>
                 <td>
-                    <input type="email" name="email" id="champ_case" placeholder="Email"> 
+                    <input type="text" name="email" id="champ_case" placeholder="Nom"> 
                 </td>
             </tr>
             <tr>
@@ -41,7 +41,7 @@
                     <label for="id">Choisissez votre prenom: </label>
                 </td>
                 <td>
-                    <input type="email" name="email" id="champ_case" placeholder="Email"> 
+                    <input type="text" name="email" id="champ_case" placeholder="Prenom"> 
                 </td>
             </tr>
             <tr>
@@ -49,7 +49,7 @@
                     <label for="id">Choisissez votre mot de passe : </label>
                 </td>
                 <td>
-                    <input type="password" name="password" id="champ_case" placeholder="mot de passe "> 
+                    <input type="password" name="password" id="champ_case" placeholder="Mot de passe "> 
                 </td>
             </tr>
             <tr>
@@ -57,7 +57,7 @@
                     <label for="id">Confirmer votre mot de passe : </label>
                 </td>
                 <td>
-                    <input type="password" name="c_password" id="champ_case" placeholder=" confirmer mot de passe "> 
+                    <input type="password" name="c_password" id="champ_case" placeholder=" Confirmer mot de passe "> 
                 </td>
             </tr>
             <tr>
@@ -67,6 +67,11 @@
             </td>
             </tr>
             <tr>
+            <td>
+            </td>
+            <tr>
+            </tr>
+            </tr>
             <td>
             </td>
             <td>
