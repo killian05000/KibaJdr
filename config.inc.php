@@ -4,6 +4,7 @@
             
             "accueil" =>"application/modules/accueil.inc.php",
             "connexion" => "application/modules/connexion.inc.php",
+            "inscription" => "application/modules/inscription.inc.php",
             "profil" => "application/modules/profil.inc.php",
             
             "publications" => "application/modules/publications.inc.php",

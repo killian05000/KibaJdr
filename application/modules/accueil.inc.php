@@ -1,6 +1,6 @@
 <?php
 
-include("profile.inc.php");
+include("profil.inc.php");
 
 /*$alea = array(rand(0,100), rand(0,100), rand(0,100));
 $data['alea'] = $alea;
