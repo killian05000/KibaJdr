@@ -1,0 +1,146 @@
+/* Feuille de style du sîte de WOLFGER Killian */
+*
+{
+	font-family: Tahoma, Geneva, sans-serif ;
+}
+
+body
+{
+	background-color: grey; // le bg
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: ; 
+	margin: 0px;
+}
+
+#page 
+{
+	width: 800px;
+	margin: auto;
+	text-align: center;	
+	color: white;	
+	background-color: rgba(230,255,30,0.5); // la colonne centrale verte
+	margin-bottom: 100px;
+}
+
+#header
+{
+	width: 800px;
+	height: 200px;
+	background-image: url("redandblack.jpg");
+}
+
+#containment
+{	
+	background-color: pink;
+}
+
+#navigator
+{
+	width: 800px;
+	float: left;
+ 	list-style-type: none;
+	text-align: center;	
+	color: white;		
+}
+
+
+#menu li 
+{
+
+	width : 120px;
+	list-style-type: none;
+	background-color: rgba(25,255,255,0.5); // couleur du fond du menu
+	margin-left: 20px;
+	margin-bottom: 10px;
+	border-radius: 10px 10px 10px 10px;
+ 	float:left;
+ 	margin-left: 50px;
+	
+}
+
+#menu li a
+{
+	display: block;
+	color: white;
+	font: Tahoma, sans-serif;
+	line-height: 1em;
+	text-align: center;
+	text-decoration: none;
+	padding: 8px 0;
+}
+
+#menu li a:hover
+{
+	color: black;
+	text-decoration: none;	
+}
+
+#content
+{
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.article
+{
+	color: black;
+	background-color: rgba(255,255,255,0.5);
+	text-align: justify;
+	padding: 1em;
+	border-radius: 10px 10px 10px 10px;	
+	margin-top: 20px;
+	margin-bottom: 20px;	
+}
+
+#first
+{
+	margin-top: 100px;
+}
+
+img.gauche
+{
+	height: 150px;
+	width: 200px;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+
+img.droite
+{
+	height: 150px;
+	width: 200px;
+	float: right;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+.deux_colonnes
+{
+	padding: 1em;
+	-moz-column-count: 2;
+	-moz-column-gap: 3em;
+	-webkit-column-count: 2;
+	-webkit-column-gap: 1em;
+	column-count: 2;
+	column-gap: 1em;
+}
+
+#footer
+{
+	color: white;
+	height: 3em;
+	text-align: center;
+	background-color: rgba(0,0,0,0.5);
+	margin-top: 0px;
+	padding: 0px;
+	clear: both;
+	line-height: 3em;
+	clear: both;
+}
+
+#header
+{
+	background-image: url("redandblack.jpg");
+}

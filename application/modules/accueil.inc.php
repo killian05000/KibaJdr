@@ -2,8 +2,9 @@
 
 include("profile.inc.php");
 
-$alea = array(rand(0,100), rand(0,100), rand(0,100));
+/*$alea = array(rand(0,100), rand(0,100), rand(0,100));
 $data['alea'] = $alea;
+echo " ----------------Accueil----------------<br>";
 $txt = "Blabla";
 echo "$txt<br/>";
 foreach ($alea as $value)
@@ -20,6 +21,8 @@ foreach ($data as $value)
 		echo "Valeur : $value2<br/>";
 	}
 }
+
+echo " ----------------Accueil----------------";*/
 
 
 ?>
