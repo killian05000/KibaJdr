@@ -28,7 +28,9 @@ if(isset($_POST['submit'])){
                     $_SESSION['login'] = $info_user['UTI_LOGIN'];
                     $_SESSION['mail'] = $info_user['UTI_MAIL'];
                     $_SESSION['password'] = $info_user['UTI_PASS'];
-                    
+
+                    $_SESSION['etat']=TRUE;
+
                     /*
                     $_SESSION['confirme'] = $info_user['confirme'];
 
@@ -45,10 +47,11 @@ if(isset($_POST['submit'])){
 
             
         
-        } else {
+        } 
+
+        else {
                 echo "Adresse ou Mot de passe incorrect ! ";
-        }
-        
+        }        
    
     } else { 
         echo " Veuillez remplir les champs !";

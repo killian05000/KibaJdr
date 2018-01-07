@@ -30,7 +30,14 @@ else{
     header('location:index.php?page=accueil');
 }
 
+if (isset($_SESSION['etat']))
+{
+    echo "connected";
+    $data['connected'] = "TRUE";
+}
+
 $smarty->assign('data',$data);
 $smarty->display('application/views/modules/'.$currentPage.'.tpl');
+
     
 ?>

@@ -2,7 +2,6 @@
 
 {block name = "content"}
 
-
 <html>
     <head>
         <title> Inscription</title>

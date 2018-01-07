@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.30, created on 2018-01-07 18:03:48
+/* Smarty version 3.1.30, created on 2018-01-07 21:34:16
   from "C:\xampp\htdocs\KibaJdr\application\views\layout\layout_pied.inc.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5a5252f413c541_38257134',
+  'unifunc' => 'content_5a5284485512b0_60481558',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_5a5252f413c541_38257134 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5a5284485512b0_60481558 (Smarty_Internal_Template $_smarty_tpl) {
 ?>
 <div id="copyright">
 	<p> &copy; Copyright 2018 Killian WOLFGER - tous droits réservés </p>

@@ -1,10 +1,6 @@
 <?php
-
 session_start();
 $_SESSION = array();
 session_destroy();
-header('location:Connexion.php');
+header('location:?page=accueil');
 ?>
-<!DOCTYPE html>
-
-

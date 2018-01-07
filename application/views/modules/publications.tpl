@@ -6,7 +6,7 @@
 
 	{foreach key=key item=categorie from=$data['INFORMATIONS']}
 
-		<a id="categorie_title">{$categorie['LABEL']</a>
+		<a id="categorie_title">{$categorie['LABEL']}</a>
 
 	{/foreach}
 	<br>

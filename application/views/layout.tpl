@@ -10,7 +10,13 @@
 </header>
 <body>
 	<head>
-		{include file='application/views/nav/nav.inc.tpl'}
+		{if (isset($data['connected']) && ($data['connected']=='TRUE')) }
+			{include file='application/views/nav/nav_membre.inc.tpl'}
+		{else}
+			{include file='application/views/nav/nav.inc.tpl'}
+		{/if}
+
+		
 	</head>
 		{block name = "content"}
 		{/block}

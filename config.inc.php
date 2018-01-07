@@ -6,7 +6,7 @@
             "connexion" => "application/modules/connexion.inc.php",
             "inscription" => "application/modules/inscription.inc.php",
             "profil" => "application/modules/profil.inc.php",
-            
+            "deconnexion" => "application/modules/deconnexion.inc.php",
             "publications" => "application/modules/publications.inc.php",
             //"publication" => "application/modules/publi_detail.inc.php",
             //"publication_liste" => "application/modules/publi_liste.inc.php",
