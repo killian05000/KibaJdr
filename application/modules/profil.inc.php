@@ -1,16 +1,27 @@
 <?php
+//session_start();
+try{
+$connect = new PDO ('mysql:host=localhost;dbname=jdr;charset=utf8','root','');
+}catch (Exception $e){die('Erreur : '.$e->getMessage());}
 
-$user['nom'] = "wolfger";
-$user['prenom'] = "killian";
-$data['user'] = $user;
+if(isset($_SESSION['id'])){
 
-/*
-foreach ($data as $value)
-{
-	foreach ($value as $value2)
-	{
-		echo "Valeur : $value2<br/>";
-	}
-}
-*/
+    $requser = $connect->prepare( "SELECT * FROM t_utilisateur_uti WHERE UTI_ID = ? ");
+    $requser->execute(array($_SESSION['id']));
+    $u = $requser->fetch();
+    
+    $user['ID'] = $u['UTI_ID'];
+    $user['PSEUDO'] = $u['UTI_LOGIN'];
+    $user['MAIL'] = $u['UTI_MAIL'];
+    $user['NOM'] = $u['UTI_NOM'];
+    $user['PRENOM'] = $u['UTI_PRENOM'];
+    $user['PASSWORD'] = $u['UTI_PASS'];
+    $user['ADMIN'] = $u['UTI_ADMIN'];
+    $user['AVATAR'] = $u['UTI_AVATAR'];
+
+    $data['INFORMATIONS'] = $user;
+    
+     }else {
+        header('location:Connexion.php?error= Vous devez vous connecter' );
+    }
 ?>
