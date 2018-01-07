@@ -14,9 +14,7 @@
 			{include file='application/views/nav/nav_membre.inc.tpl'}
 		{else}
 			{include file='application/views/nav/nav.inc.tpl'}
-		{/if}
-
-		
+		{/if}		
 	</head>
 		{block name = "content"}
 		{/block}
