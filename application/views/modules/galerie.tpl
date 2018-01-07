@@ -2,6 +2,6 @@
 
 {block name = "content"}
 
-<a>cette ligne se trouve dans connexion.tpl</a>
+<a>cette ligne se trouve dans galerie.tpl</a>
 
 {/block};
