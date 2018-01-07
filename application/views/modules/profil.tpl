@@ -4,45 +4,49 @@
 
 <a>cette ligne se trouve dans profil.tpl</a><br><br>
 
-<table class="table_profil">
+<table id = "table_profil">
 	<tr>
 		<td>
 			Pseudo :
 		</td>
 		<td>
-			{$data['INFORMATIONS']['PSEUDO']}
+			<a id="informations_profil">{$data['INFORMATIONS']['PSEUDO']}</a>
 		</td>
 	</tr>
-		<tr>
+
+	<tr>
 		<td>
 			Nom :
 		</td>
 		<td>
-			{$data['INFORMATIONS']['NOM']}
+			<a id="informations_profil">{$data['INFORMATIONS']['NOM']}</a>
 		</td>
 	</tr>
-		<tr>
+
+	<tr>
 		<td>
 			Prenom :
 		</td>
 		<td>
-			{$data['INFORMATIONS']['PRENOM']}
+			<a id="informations_profil">{$data['INFORMATIONS']['PRENOM']}</a>
 		</td>
 	</tr>
-		<tr>
+	
+	<tr>
 		<td>
 			Adresse mail :
 		</td>
 		<td>
-			{$data['INFORMATIONS']['MAIL']}
+			<a id="informations_profil">{$data['INFORMATIONS']['MAIL']}</a>
 		</td>
 	</tr>
+
 	<tr>
 		<td>		
 			Avatar :
 		</td>
 		<td>
-		 	<img src = "media/categorie/{$data['INFORMATIONS']['AVATAR']}" width = "400" height = "250" />
+		 	<img id="informations_profil" src = "media/categorie/{$data['INFORMATIONS']['AVATAR']}" width = "400" height = "250" />
 		</td>
 	</tr>
 </table>

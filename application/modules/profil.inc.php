@@ -21,7 +21,5 @@ if(isset($_SESSION['id'])){
 
     $data['INFORMATIONS'] = $user;
     
-     }else {
-        header('location:Connexion.php?error= Vous devez vous connecter' );
-    }
+     }
 ?>

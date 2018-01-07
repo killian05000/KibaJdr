@@ -31,6 +31,8 @@ if(isset($_POST['submit'])){
 
                     $_SESSION['etat']=TRUE;
 
+                    header('location:?page=accueil' );
+
                     /*
                     $_SESSION['confirme'] = $info_user['confirme'];
 

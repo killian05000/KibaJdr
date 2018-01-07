@@ -52,7 +52,7 @@ body
 	text-align: center;
 }
 
-#taaable, .table_profil
+#taaable, #table_profil
 {
 	text-align: center;
 	display: inline-block;
@@ -69,11 +69,15 @@ body
 	background-color: black;
 }
 
-.table_profil tr
+#table_profil td
 {
-	position: left;
+	text-align: left;
 }
 
+#informations_profil
+{
+	margin-left: 30px;
+}
 
 #menu
 {
