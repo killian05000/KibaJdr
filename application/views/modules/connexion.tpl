@@ -16,7 +16,7 @@
                 <label for="id">Adresse mail : </label>
             </td>
             <td>
-                <input type="email" name="email" id="champ_case" placeholder="Email"> 
+                <input type="email" name="email" class="champ_case" placeholder="Email"> 
             </td>
         </tr>
         <tr>
@@ -24,7 +24,7 @@
                 <label for="id">Mot de passe : </label>
             </td>
             <td>
-                <input type="password" name="password" id="champ_case" placeholder="mot de passe "> 
+                <input type="password" name="password" class="champ_case" placeholder="mot de passe "> 
             </td>
         </tr>
         <tr>
@@ -37,7 +37,7 @@
         <td>
         </td>
         <td>
-            <input id="champ_case" type="submit" name="submit" value="Se connecter">
+            <input class="champ_case" type="submit" name="submit" value="Se connecter">
         </td>
         </tr>
    </table>  

@@ -17,7 +17,7 @@ if(!empty($_GET['page'])){
         
         if($currentPage == $key){
             
-            include($_PAGES[$currentPage]   );
+            include($_PAGES[$currentPage]);
             $bool = true;
             break;
         } else {

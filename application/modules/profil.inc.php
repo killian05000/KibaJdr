@@ -21,5 +21,9 @@ if(isset($_SESSION['id'])){
 
     $data['INFORMATIONS'] = $user;
     
-     }
+}
+
+if(isset($_POST['submit'])){
+    header('location:?page=editProfil' );
+    }
 ?>

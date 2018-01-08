@@ -16,7 +16,7 @@
                     <label for="id">Choisissez votre identifiant : </label>
                 </td>
                 <td>
-                    <input type="text" name="pseudo" id="champ_case" placeholder="Pseudo"> 
+                    <input type="text" name="pseudo" class="champ_case" placeholder="Pseudo"> 
                 </td>
             </tr>
             <tr>
@@ -24,7 +24,7 @@
                     <label for="id">Choisissez votre adresse mail : </label>
                 </td>
                 <td>
-                    <input type="email" name="email" id="champ_case" placeholder="Email"> 
+                    <input type="email" name="email" class="champ_case" placeholder="Email"> 
                 </td>
             </tr>
             <tr>
@@ -32,7 +32,7 @@
                     <label for="id">Choisissez votre nom : </label>
                 </td>
                 <td>
-                    <input type="text" name="nom" id="champ_case" placeholder="Nom"> 
+                    <input type="text" name="nom" class="champ_case" placeholder="Nom"> 
                 </td>
             </tr>
             <tr>
@@ -40,7 +40,7 @@
                     <label for="id">Choisissez votre prenom: </label>
                 </td>
                 <td>
-                    <input type="text" name="prenom" id="champ_case" placeholder="Prenom"> 
+                    <input type="text" name="prenom" class="champ_case" placeholder="Prenom"> 
                 </td>
             </tr>
             <tr>
@@ -48,7 +48,7 @@
                     <label for="id">Choisissez votre mot de passe : </label>
                 </td>
                 <td>
-                    <input type="password" name="password" id="champ_case" placeholder="Mot de passe "> 
+                    <input type="password" name="password" class="champ_case" placeholder="Mot de passe "> 
                 </td>
             </tr>
             <tr>
@@ -56,7 +56,7 @@
                     <label for="id">Confirmer votre mot de passe : </label>
                 </td>
                 <td>
-                    <input type="password" name="c_password" id="champ_case" placeholder=" Confirmer mot de passe "> 
+                    <input type="password" name="c_password" class="champ_case" placeholder=" Confirmer mot de passe "> 
                 </td>
             </tr>
             <tr>
