@@ -9,8 +9,7 @@
             "editProfil" => "application/modules/editProfil.inc.php",
             "deconnexion" => "application/modules/deconnexion.inc.php",
             "publications" => "application/modules/publications.inc.php",
-            //"publication" => "application/modules/publi_detail.inc.php",
-            //"publication_liste" => "application/modules/publi_liste.inc.php",
+            "creer_public" => "application/modules/creer_public.inc.php",
             "galerie" => "application/modules/galerie.inc.php"
     );
 
