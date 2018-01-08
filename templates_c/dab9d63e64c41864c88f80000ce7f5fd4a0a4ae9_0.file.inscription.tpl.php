@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2018-01-08 01:45:03
+/* Smarty version 3.1.30, created on 2018-01-08 04:17:31
   from "C:\xampp\htdocs\KibaJdr\application\views\modules\inscription.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5a52bf0f7a13c8_17344313',
+  'unifunc' => 'content_5a52e2cb4741d0_16677948',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'dab9d63e64c41864c88f80000ce7f5fd4a0a4ae9' => 
     array (
       0 => 'C:\\xampp\\htdocs\\KibaJdr\\application\\views\\modules\\inscription.tpl',
-      1 => 1515372302,
+      1 => 1515381447,
       2 => 'file',
     ),
   ),
@@ -21,20 +21,20 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:../layout.tpl' => 1,
   ),
 ),false)) {
-function content_5a52bf0f7a13c8_17344313 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5a52e2cb4741d0_16677948 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 ?>
 
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_20595798695a52bf0f7a0ca9_57805008', "content");
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_14621213195a52e2cb473c46_65287200', "content");
 ?>
 ;<?php $_smarty_tpl->inheritance->endChild();
 $_smarty_tpl->_subTemplateRender("file:../layout.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 2, false);
 }
 /* {block "content"} */
-class Block_20595798695a52bf0f7a0ca9_57805008 extends Smarty_Internal_Block
+class Block_14621213195a52e2cb473c46_65287200 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
@@ -112,7 +112,7 @@ public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
             <td>
             </td>
             <td>
-                <input id="champ_case" type="submit" name="submit" value="S'inscrire">
+                <input class="champ_case" type="submit" name="submit" value="S'inscrire">
             </td>
             </tr>
         </table>        

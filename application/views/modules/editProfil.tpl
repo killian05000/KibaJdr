@@ -2,9 +2,6 @@
 
 {block name = "content"}
 
-<a>cette ligne se trouve dans edit profil.tpl</a><br><br><br>
-
-
     <table id = "table_profil">
         <tr>
             <td>

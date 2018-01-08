@@ -32,7 +32,6 @@ else{
 
 if (isset($_SESSION['etat']))
 {
-    echo "connected";
     $data['connected'] = "TRUE";
 }
 

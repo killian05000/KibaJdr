@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.30, created on 2018-01-08 03:55:38
+/* Smarty version 3.1.30, created on 2018-01-08 04:09:01
   from "C:\xampp\htdocs\KibaJdr\application\views\modules\editProfil.tpl" */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.30',
-  'unifunc' => 'content_5a52ddaa8daaf8_84410534',
+  'unifunc' => 'content_5a52e0cd8a2395_12254622',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'f697a9a6c341703b306429aec5911ccfbea15840' => 
     array (
       0 => 'C:\\xampp\\htdocs\\KibaJdr\\application\\views\\modules\\editProfil.tpl',
-      1 => 1515379450,
+      1 => 1515380929,
       2 => 'file',
     ),
   ),
@@ -21,26 +21,23 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:../layout.tpl' => 1,
   ),
 ),false)) {
-function content_5a52ddaa8daaf8_84410534 (Smarty_Internal_Template $_smarty_tpl) {
+function content_5a52e0cd8a2395_12254622 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_loadInheritance();
 $_smarty_tpl->inheritance->init($_smarty_tpl, true);
 ?>
 
 
 <?php 
-$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_1914590205a52ddaa8da3f9_63953770', "content");
+$_smarty_tpl->inheritance->instanceBlock($_smarty_tpl, 'Block_6597230955a52e0cd8a1bc5_49218661', "content");
 ?>
 ;<?php $_smarty_tpl->inheritance->endChild();
 $_smarty_tpl->_subTemplateRender("file:../layout.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 2, false);
 }
 /* {block "content"} */
-class Block_1914590205a52ddaa8da3f9_63953770 extends Smarty_Internal_Block
+class Block_6597230955a52e0cd8a1bc5_49218661 extends Smarty_Internal_Block
 {
 public function callBlock(Smarty_Internal_Template $_smarty_tpl) {
 ?>
-
-
-<a>cette ligne se trouve dans edit profil.tpl</a><br><br><br>
 
 
     <table id = "table_profil">

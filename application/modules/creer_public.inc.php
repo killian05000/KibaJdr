@@ -15,9 +15,7 @@ if(isset($_SESSION['id'] )){
     
     
     
-    if(isset($_GET['edit']) AND !empty ($_GET['edit'])){
-
-        
+    if(isset($_GET['edit']) AND !empty ($_GET['edit'])){        
         
         $edition = 1;
         
@@ -25,11 +23,9 @@ if(isset($_SESSION['id'] )){
         
         $verif_reference = $connect->prepare('SELECT * FROM t_publication_pub WHERE PUB_ID = ? AND UTI_ID = ?');
         $verif_reference->execute(array($edit_id,$user_id));
-        $verif_existe = $verif_reference->rowcount($verif_reference);
+        $verif_existe = $verif_reference->rowcount($verif_reference);        
         
-        
-        if($verif_existe == 1){
-            
+        if($verif_existe == 1){            
 
             $edit_rubriques = $connect->prepare('SELECT * FROM t_publication_pub WHERE PUB_ID = ? AND UTI_ID = ?');
             $edit_rubriques->execute(array($edit_id,$user_id));
@@ -54,15 +50,10 @@ if(isset($_SESSION['id'] )){
             $edit['NBPERSONNE'] = $e['PUB_NBPERSONNE'];
 
             $data['INFORMATIONS'][] = $edit;
-		
-
-
                
 
-        } else {
-            
-            echo  "erreur impossible d'editer, la rubrique ne vous appartient pas" ;
-           
+        } else {            
+            echo  "erreur impossible d'editer, la rubrique ne vous appartient pas" ;           
         }
 
     } 
@@ -76,8 +67,7 @@ if(isset($_SESSION['id'] )){
             $difficulte = htmlspecialchars($_POST['difficulte']);
             $nbpersonne = htmlspecialchars($_POST['nbpersonne']);
             
-            if($edition == 0){
-                
+            if($edition == 0){               
             
                    $inser = $connect->prepare('INSERT INTO t_publication_pub(PUB_TITRE,PUB_DESCRIPTION,PUB_DATE,UTI_ID,PUB_STATUT,PUB_DUREE,PUB_DIFFICULTE,PUB_NBPERSONNE) VALUES (?,?,NOW(),?,?,?,?)');
 

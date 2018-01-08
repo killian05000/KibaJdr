@@ -2,7 +2,7 @@
 
 {block name = "content"}
 
-<a>cette ligne se trouve dans publication.tpl</a><br><br><br>
+<a>Voici les differentes catégories :</a><br><br><br>
 
 	{foreach key=key item=categorie from=$data['INFORMATIONS']}
 

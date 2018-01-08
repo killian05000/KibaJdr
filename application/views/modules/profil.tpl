@@ -2,8 +2,6 @@
 
 {block name = "content"}
 
-<a>cette ligne se trouve dans profil.tpl</a><br><br>
-
 <form action="" method="post">
 	<table id = "table_profil">
 		<tr>

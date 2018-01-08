@@ -2,8 +2,6 @@
 
 {block name = "content"}
 
-<a>cette ligne se trouve dans accueil.tpl</a>
-
 <table id = "text_accueil">
 	<td>
 		<p id= "p_accueil"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eu tempus lorem, sit amet porta lacus. Sed consequat ornare nisl, a tempus purus vestibulum nec. Quisque quis luctus massa. Etiam sit amet gravida justo, sit amet vehicula ex. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Pellentesque a massa et lectus pulvinar facilisis. Curabitur eget augue at justo elementum bibendum. Mauris varius feugiat libero consequat luctus. Cras molestie orci dui. Praesent interdum eleifend eros, non tempor urna euismod ut. Morbi metus libero, efficitur feugiat tortor ac, accumsan dictum tortor. Morbi accumsan lorem urna, eget varius ex lobortis vitae. Phasellus tempus imperdiet euismod.

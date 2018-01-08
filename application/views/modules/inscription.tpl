@@ -74,7 +74,7 @@
             <td>
             </td>
             <td>
-                <input id="champ_case" type="submit" name="submit" value="S'inscrire">
+                <input class="champ_case" type="submit" name="submit" value="S'inscrire">
             </td>
             </tr>
         </table>        
